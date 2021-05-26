@@ -1,10 +1,13 @@
 # final-project-team
 final-project-team created by GitHub Classroom
 
+Recipe Website!
+
+-------------------------------------------------------------------------------
+
 clone repository:
   $ git clone https://github.com/osu-cs290-sp21/final-project-team.git
   
-
 -------------------------------------------------------------------------------
 
 create your own branch:
