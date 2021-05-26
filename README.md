@@ -8,23 +8,23 @@ clone repository:
 -------------------------------------------------------------------------------
 
 create your own branch:
-  $ git checkout -b [name your branch here] main
+  ```$ git checkout -b [name your branch here] main```
   
 for example:
-  $ git checkout -b final-project-myname main
+  ```$ git checkout -b final-project-myname main```
 
 -------------------------------------------------------------------------------
 
 commit changes:
-  $ git commit -a -m [commit message here]
+  ```$ git commit -a -m [commit message here]```
   
 for example:
-  $ git commit -a -m "i changed the color to green!"
+ `$ git commit -a -m "i changed the color to green!"`
   
 -------------------------------------------------------------------------------
 
 push to github
-  $ git push --set-upstream origin [your branch name here]
+  `$ git push --set-upstream origin [your branch name here]`
   
 for example:
-  $ git push --set-upstream origin final-project-myname
+  `$ git push --set-upstream origin final-project-myname`
