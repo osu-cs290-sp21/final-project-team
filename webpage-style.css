@@ -19,8 +19,15 @@ i.fas.fa-utensils {
   text-align: center;
 }
 
-img#recipe-photo-id {
-    height: 200px; 
+ul.recipe-header {
+  padding-left: 0;
+  list-style-type: none;
+  /* display: inline; */
+  /* float: left; */
+}
+
+li.recipe-header {
+  display: inline;
 }
 
 input#search-bar-input {
@@ -66,10 +73,11 @@ i.fas.fa-search {
 }
 
 .recipe-container {
-    margin: 50px 10%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* margin: 30px 10%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    padding-left: 50px;
 }
 
 .center {
@@ -91,16 +99,15 @@ i.fas.fa-search {
 }
   
 .recipe-content {
-  flex: 1 1 80%;
+  /* flex: 1 1 80%; */
   margin-left: 10px;
   padding: 10px;
-  border: 2px solid #6EE198;
+  /* border: 2px solid #6EE198; */
   /* border-style: double; */
 }
   
 a.recipe-title {
   text-decoration: none;
-  font-weight: bold;
 }
 .recipe-title {
   margin-top: 8px;
