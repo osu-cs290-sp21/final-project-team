@@ -13,8 +13,8 @@ a{
     padding: 20px 20px;
     font-size: 40px;
     font-weight: 100;
-    background-color: green;
-    color: lightgray;
+    background-color: rgb(127, 245, 170);
+    color: white;
     text-decoration: none;
     text-align: center;
 }
@@ -27,3 +27,32 @@ a{
     border-radius: 2px;
     float: center;
 }
+
+.recipe-container {
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .recipe {
+    flex: 0 1 28%;
+    min-width: 256px;
+    display: flex;
+    margin: 2px;
+    padding: 20px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  
+  .recipe-content {
+    flex: 1 1 80%;
+    margin-left: 10px;
+  }
+  
+  .recipe-title {
+    margin-top: 8px;
+    text-align: right;
+    font-weight: bold;
+    color: rgb(127, 245, 170);
+  }
