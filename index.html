@@ -3,7 +3,8 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Group 27 Recipe App</title>
+    <title>GROUP 27 RECIPE APP</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css" media="screen">
   </head>
@@ -12,12 +13,17 @@
 
     <header>
       <!-- Website Title -->
-      <a href = "#"><h1 class ="site-title"><i class="fas fa-utensils"></i>Group 27 Recipe App</h1></a>
+      <a href = "#"><h1 class ="site-title"><i class="fas fa-utensils"></i>GROUP 27 RECIPE APP</h1></a>
       
       <!-- Search bar -->
       <nav class="navbar">
-        <input type="text" id="search-bar-input" placeholder="Search...">
-        <button type="button" id ="search-bar-button"><i class="fas fa-search"></i></button>
+        <ul class="navbar-list">
+          <li>
+            <input type="text" id="search-bar-input" placeholder="Search for recipes...">
+            <button type="button" id ="search-bar-button"><i class="fas fa-search"></i></button>
+          </li>
+        </ul>
+        
       </nav>
 
     </header>
@@ -27,7 +33,7 @@
       <article class="recipe">
         <div class="recipe-content">
             <p class="recipe-photo">
-                <img src="images/spaghetti.jpg">
+                <img id="recipe-photo-id" class="center" src="images/spaghetti.jpg">
             </p>
             <p class="recipe-title">
             <a href="#">Spaghetti</a>
@@ -44,7 +50,7 @@
       <article class="recipe">
         <div class="recipe-content">
             <p class="recipe-photo">
-                <img src="images/breakfast-nachos.jpg">
+                <img id="recipe-photo-id" class="center" src="images/breakfast-nachos.jpg">
             </p>
             <p class="recipe-title">
             <a href="#">Breakfast Nachos</a>
@@ -61,7 +67,7 @@
      </main> 
 
       <!-- New recipe button -->
-      <button type="button" id="add-recipe-button"><i class="fas fa-utensils"></i></button>
+      <button type="button" id="add-recipe-button"><i class="fas fa-utensils add-button"></i></button>
       
       <div id="modal-background" class="hidden"></div>
       <div id="add-recipe-modal" class="hidden"></div>
