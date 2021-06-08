@@ -1,0 +1,50 @@
+[
+    {
+        "foodtitle": "Spaghet",
+        "time": "45 Minutes",
+        "description": "An easy recipe for an authentic and classic Italian meal. This recipe requires only 13 ingredients.",
+        "image": "images/spaghetti.jpg"
+    },
+    {
+        "foodtitle": "Breakfast Nachos",
+        "time": "15 minutes",
+        "description": "A morning twist on one of your favorite foods that can be completely customized with whatever is in your pantry.",
+        "image": "images/breakfast-nachos.jpg"
+    },
+    {
+        "foodtitle": "BLT Sandwich",
+        "time": "10 minutes",
+        "description": "A classic and delicious sandwich that you can put together in a whim.",
+        "image": "images/blt.jpg"
+    },
+    {
+        "foodtitle": "Creamy Pesto Pasta",
+        "time": "25 minutes",
+        "description": "This super creamy and delicious pasta is a one pot recipe that will become your new favorite way to eat pasta.",
+        "image": "images/creamy-pesto-pasta.jpeg"
+    },
+    {
+        "foodtitle": "Gordam Ramsays Beef Wellington",
+        "time": "~90+ minutes",
+        "description": "A advanced dish by Gordan Ramsay. 'A prime beef fillet, mushrooms, and ready-made pastry', the beef wellington by Gordan Ramsay is something meant for special occasions. If you want to wow friends and family at a dinner this is the dish for you.",
+        "image": "imagines/gramsay.jpg"
+    },    
+    {
+        "foodtitle": "somethign",
+        "time": "asdf",
+        "description": "asdf",
+        "image": "asdf"
+    },
+    {
+        "foodtitle": "as1123df",
+        "time": "as555df",
+        "description": "as123fd",
+        "image": "asd6678f"
+    },
+    {
+        "foodtitle": "a123sdf",
+        "time": "asd551f",
+        "description": "as1245678df",
+        "image": "asdfasdf"
+    }
+]
