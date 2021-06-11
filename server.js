@@ -9,6 +9,7 @@ app.use(express.static('views/images'));
 
 var recipeData = require('./recipedata.json');
 const { nextTick } = require('process');
+var recipess = require('./recipess.json');
 
 app.engine('handlebars', expresshandlebars({
     defaultLayout: 'main',
@@ -22,11 +23,11 @@ var port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 
+
 app.get("/webpage/:recipe", function(req, res){
-    var idrecipe = req.params.recipe
-    if(idrecipe){
-        res.status(200).render(idrecipe)
-    }
+    var idrecipe = req.params.recipe.toLowerCase();
+    res.status(200).render("recipemain", recipess[0][idrecipe])
+
 })
 
 
