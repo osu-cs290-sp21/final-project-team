@@ -10,7 +10,6 @@ app.use(express.static('views/images'));
 var recipeData = require('./recipedata.json');
 const { nextTick } = require('process');
 var recipess = require('./recipess.json');
-console.log(recipess)
 
 app.engine('handlebars', expresshandlebars({
     defaultLayout: 'main',

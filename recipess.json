@@ -360,6 +360,48 @@
                 "steps": "Listen"
             }
         ]
+    },
+    "rachelrayguac":{
+        "title": "Rachel Ray's Guacamole",
+        "time": "15 minutes",
+        "image": "/images/guacamole.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "4 hass avocados (about 7 oz. each), preferably organic"
+            },
+            {
+                "bulletPoint": "1 serrano chile, stemmed and minced"
+            },
+            {
+                "bulletPoint": "1 small clove garlic, minced (optional)"
+            },
+            {
+                "bulletPoint": "2 tablespoons finely chopped white onion"
+            },
+            {
+                "bulletPoint": "2 tablespoons finely chopped seeded tomato"
+            },
+            {
+                "bulletPoint": "2 tablespoons chopped cilantro, plus more for garnish"
+            },
+            {
+                "bulletPoint": "2 - 3 teaspoons fresh lime juice, plus 1 lime cut into wedges"
+            },
+            {
+                "bulletPoint": "1/2 teaspoon salt, plus more to taste"
+            },
+            {
+                "bulletPoint": "1 bag good-quality tortilla chips"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "In a medium bowl, mash the avocado flesh with a fork until somewhat chunky (not smooth). One at a time, gently stir in the chile, garlic, onion, tomato, cilantro, lime juice and salt. Cover with plastic wrap touching the surface and let sit for about 2 hours to allow the flavors to develop."
+            },
+            {
+                "steps": "Season with salt to taste (remember that tortilla chips are salty). Transfer the mixture to a serving bowl, garnish with a sprinkle of cilantro and serve with lime wedges and tortilla chips."
+            }
+        ]
     }
 
     }

@@ -49,10 +49,10 @@
         "htmlLink": "webpage/noodles"
     },
     {
-        "foodtitle": "a123sdf",
-        "time": "asd551f",
-        "description": "as1245678df",
-        "image": "asdfasdf",
-        "htmlLink": "webpage/"
+        "foodtitle": "Rachel Ray's Guacamole",
+        "time": "15 minutes",
+        "description": "Rachel Ray's guacamole recipe! (Chips not included)",
+        "image": "/images/guacamole.jpg",
+        "htmlLink": "webpage/rachelrayguac"
     }
 ]
