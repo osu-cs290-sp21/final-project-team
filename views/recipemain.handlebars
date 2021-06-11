@@ -1,0 +1,42 @@
+
+    <main class="recipe-container">
+
+      <article class="recipe">
+        <div class="recipe-content">
+            <ul class="recipe-header">
+                <li><p class="recipe-photo">
+                    <img id="recipe-photo-id" src={{image}}>
+                </p>
+                </li>
+                <li><h1 class="recipe-title">
+                    {{title}}
+                </h1>
+                </li>
+            </ul>
+            <p class="recipe-time">
+                {{time}}
+            </p>
+            <p class="review-recipe">
+                <button type="button" id="like-recipe-button"><i class="fas fa-thumbs-up"></i></button>
+            <button type="button" id="dislike-recipe-button"><i class="fas fa-thumbs-down"></i></button>
+            </p>
+            <h3> Ingredients: </h3>
+            <p class="recipe-ingredients">
+                <ul>
+                    {{#each listOfStuff}}
+                    <li>{{bulletPoint}}</li>
+                    {{/each}}
+                </ul>
+            </p>
+            <h3> Instructions: </h3>
+            <p class="recipe-instructions">
+                <ol>
+                    {{#each listOfSteps}}
+                    <li>
+                        {{steps}}
+                    </li>
+                    {{/each}}
+                </ol>
+            </p>
+        </div>
+      </article>
