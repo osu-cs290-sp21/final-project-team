@@ -1,0 +1,58 @@
+[
+    {
+        "foodtitle": "Spaghetti",
+        "time": "45 Minutes",
+        "description": "An easy recipe for an authentic and classic Italian meal. This recipe requires only 13 ingredients.",
+        "image": "images/spaghetti.jpg",
+        "htmlLink": "webpage/sphagetti"
+    },
+    {
+        "foodtitle": "Breakfast Nachos",
+        "time": "15 minutes",
+        "description": "A morning twist on one of your favorite foods that can be completely customized with whatever is in your pantry.",
+        "image": "images/breakfast-nachos.jpg",
+        "htmlLink": "webpage/breakfastnachos"
+    },
+    {
+        "foodtitle": "BLT Sandwich",
+        "time": "10 minutes",
+        "description": "A classic and delicious sandwich that you can put together in a whim.",
+        "image": "images/blt.jpg",
+        "htmlLink": "webpage/blt"
+    },
+    {
+        "foodtitle": "Creamy Pesto Pasta",
+        "time": "25 minutes",
+        "description": "This super creamy and delicious pasta is a one pot recipe that will become your new favorite way to eat pasta.",
+        "image": "images/creamy-pesto-pasta.jpeg",
+        "htmlLink": "webpage/creamypestopasta"
+    },
+    {
+        "foodtitle": "Gordam Ramsays Beef Wellington",
+        "time": "~90+ minutes",
+        "description": "A advanced dish by Gordan Ramsay. 'A prime beef fillet, mushrooms, and ready-made pastry', the beef wellington by Gordan Ramsay is something meant for special occasions. If you want to wow friends and family at a dinner this is the dish for you.",
+        "image": "images/gramsay.jpg",
+        "htmlLink": "webpage/ramsay"
+    },    
+    {
+        "foodtitle": "The Hess Special",
+        "time": "Tuesday Thursday 12-2 pm",
+        "description": "Probably something with soup",
+        "image": "/images/question.png",
+        "htmlLink": "webpage/hessspecial"
+    },
+    {
+        "foodtitle": "cup of noodles",
+        "time": "not even 5 minutes probably",
+        "description": "Hungry but you're poor and/or don't wanna cook? Everyone knows what a classic cup of noodles are!",
+        "image": "images/noodles.jpg",
+        "htmlLink": "webpage/noodles"
+    },
+    {
+        "foodtitle": "a123sdf",
+        "time": "asd551f",
+        "description": "as1245678df",
+        "image": "asdfasdf",
+        "htmlLink": "webpage/"
+    }
+]

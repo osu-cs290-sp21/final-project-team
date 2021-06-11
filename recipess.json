@@ -1,0 +1,368 @@
+[   
+    {
+    "ramsay":{
+        "title": "Beef Wellington",
+        "time": "90+ minutes with before prep",
+        "image": "/images/gramsay.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "2 x 400g beef fillets"
+            },
+            {
+                "bulletPoint": "Olive oil, for frying"
+            },
+            {
+                "bulletPoint": "500g mixture of wild mushrooms, cleaned"
+            },
+            {
+                "bulletPoint": "1 thyme sprig, leaves only"
+            },
+            {
+                "bulletPoint": "8 slices of parma ham"
+            },
+            {
+                "bulletPoint": "2 egg yolks, beaten with 1 tbsp of water and a pinch of salt"
+            },
+            {
+                "bulletPoint": "Sea salt and freshly ground black pepper"
+
+            },
+            {
+                "bulletPoint": "2 tbsp olive oil"
+            },
+            {
+                "bulletPoint": "200g beef trimmings (ask the butcher to reserve these when trimming the fillet)"
+            },
+            {
+                "bulletPoint": "4 large shallots, peeled and sliced"
+            },
+            {
+                "bulletPoint": "12 black peppercorns"
+            },
+            {
+                "bulletPoint": "1 bay leaf"
+            },
+            {
+                "bulletPoint": "1 thyme sprig"
+            },
+            {
+                "bulletPoint": "Splash of red wine vinegar"
+            },
+            {
+                "bulletPoint": "1 x 750ml bottle of red win"
+            },
+            {
+                "bulletPoint": "750ml beef stock"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "Wrap each piece of beef tightly in a think layer of cling film to set its shape, then chill overnight."
+            },
+            {
+                "steps": "Remove the cling film, then quickly sear the beef fillets in a hot pan with a little olive oil for 30-60 seconds until browned all over and rare in the middle. Remove from the pan and leave to cool."
+            },
+            {
+                "steps": "Finely chop the mushrooms and fry in a hot pan with a little olive oil, the thyme leaves and some seasoning. When the mushrooms begin to release their juices, continue to cook over a high heat for about 10 minutes until all the excess moisture has evaporated and you are left with a mushroom paste (known as a duxelle). Remove the duxelle from the pan and leave to cool."
+            },
+            {
+                "steps": "Cut the pastry in half, place on a lightly floured surface and roll each piece into a rectangle large enough to envelop one of the beef fillets. Chill in the refrigerator."
+            },
+            {
+                "steps": "Lay a large sheet of cling film on a work surface and place 4 slices of Parma ham in the middle, overlapping them slightly, to create a square. Spread half the duxelle evenly over the ham."
+            },
+            {
+                "steps": " Season the beef fillets, then place them on top of the mushroom-covered ham. Using the cling film, roll the Parma ham over the beef, then roll and tie the cling film to get a nice, evenly thick log. Repeat this step with the other beef fillet, then chill for at least 30 minutes."
+            },
+            {
+                "steps": "Brush the pastry with the egg wash. Remove the cling film from the beef, then wrap the pastry around each ham-wrapped fillet. Trim the pastry and brush all over with the egg wash. Cover with cling film and chill for at least 30 minutes."
+            },
+            {
+                "steps": "Meanwhile, make the red wine sauce. Heat the oil in a large pan, then fry the beef trimmings for a few minutes until browned on all sides. Stir in the shallots with the peppercorns, bay and thyme and continue to cook for about 5 minutes, stirring frequently, until the shallots turn golden brown."
+            },
+            {
+                "steps": " Pour in the vinegar and let it bubble for a few minutes until almost dry. Now add the wine and boil until almost completely reduced. Add the stock and bring to the boil again. Lower the heat and simmer gently for 1 hour, removing any scum from the surface of the sauce, until you have the desired consistency. Strain the liquid through a fine sieve lined with muslin. Check for seasoning and set aside."
+            },
+            {
+                "steps": " When you are ready to cook the beef wellingtons, score the pastry lightly and brush with the egg wash again, then bake at 200°C/Gas 6 for 15-20 minutes until the pastry is golden brown and cooked. Rest for 10 minutes before carving."
+            },
+            {
+                "steps": "Meanwhile, reheat the sauce. Serve the beef wellingtons sliced, with the sauce as an accompaniment."
+            }
+        ]
+        },
+    "noodles":{
+        "title": "Cup of noodles",
+        "time": "Probably less than 5 minutes",
+        "image": "/images/noodles.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "a cup of noodles from your local store or something"
+            },
+            {
+                "bulletPoint": "Water"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": " Heat up water"
+            },
+            {
+                "steps": "pour water into noodle cup"
+            },
+            {
+                "steps": "Wait like 5 minutes"
+            },
+            {
+                "steps": "Enjoy"
+            }
+        ]
+    },
+    "sphagetti":{
+        "title": "Spaghetti",
+        "time": "45 minutes",
+        "image": "/images/spaghetti.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "1 pound lean ground meat like beef, turkey, chicken or lamb"
+            },
+            {
+                "bulletPoint": "3 tablespoons olive oil"
+            },
+            {
+                "bulletPoint": "1 cup (130 grams) chopped onion"
+            },
+            {
+                "bulletPoint": "3 garlic cloves, minced (1 tablespoon)"
+            },
+            {
+                "bulletPoint": "2 tablespoons tomato paste"
+            },
+            {
+                "bulletPoint": "1/2 teaspoon dried oregano"
+            },
+            {
+                "bulletPoint": "Pinch crushed red pepper flakes"
+            },
+            {
+                "bulletPoint": "1 cup water, broth or dry red wine"
+            },
+            {
+                "bulletPoint": "1 (28-ounce) can crushed tomatoes"
+            },
+            {
+                "bulletPoint": "Salt and fresh ground black pepper"
+            },
+            {
+                "bulletPoint": "Handful fresh basil leaves, plus more for serving"
+            },
+            {
+                "bulletPoint": "12 ounces dried spaghetti or favorite pasta shape"
+            },
+            {
+                "bulletPoint": "1/2 cup shredded parmesan cheese"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "Heat the oil in a large pot over medium-high heat (we use a Dutch oven). Add the meat and cook until browned, about 8 minutes. As the meat cooks, use a wooden spoon to break it up into smaller crumbles."
+            },
+            {
+                "steps": "Add the onions and cook, stirring every once and a while, until softened, about 5 minutes."
+            },
+            {
+                "steps": "Stir in the garlic, tomato paste, oregano, and red pepper flakes and cook, stirring continuously for about 1 minute."
+            },
+            {
+                "steps": "Pour in the water and use a wooden spoon to scrape up any bits of meat or onion stuck to the bottom of the pot. Stir in the tomatoes, 3/4 teaspoon of salt, and a generous pinch of black pepper. Bring the sauce to a low simmer. Cook, uncovered, at a low simmer for 25 minutes. As it cooks, stir and taste the sauce a few times so you can adjust the seasoning accordingly (see notes for suggestions)."
+            },
+            {
+                "steps": "About 15 minutes before the sauce is finished cooking, bring a large pot of salted water to the boil then cook pasta according to package directions, but check for doneness a minute or two before the suggested cooking time."
+            },
+            {
+                "steps": "Take the sauce off of the heat, and then stir in the basil. Toss in the cooked pasta, and then leave for a minute so that the pasta absorbs some of the sauce. Toss again, and then serve with parmesan sprinkled on top"
+            }
+        ]
+    },
+    "breakfastnachos":{
+        "title": "Breakfast Nachos",
+        "time": "30 minutes",
+        "image": "/images/breakfast-nachos.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "1 pound breakfast sausage"
+            },
+            {
+                "bulletPoint": "2 tablespoons butter"
+            },
+            {
+                "bulletPoint": "1 teaspoon finely chopped fresh garlic"
+            },
+            {
+                "bulletPoint": "6 eggs well beaten"
+            },
+            {
+                "bulletPoint": "1/4 teaspoon black pepper"
+            },
+            {
+                "bulletPoint": "6- to 6 1/2- ounces restaurant-style tortilla chips"
+            },
+            {
+                "bulletPoint": "2 cups shredded Monterey Jack cheese"
+            },
+            {
+                "bulletPoint": "1 medium (1 cup) tomato, seeded, chopped"
+            },
+            {
+                "bulletPoint": "1/2 to 1 jalapeño pepper, seeded, thinly sliced"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "Heat oven to 350ºF. Spray 13x9-inch baking dish with no-stick cooking spray; set aside."
+            },
+            {
+                "steps": "Cook sausage in 12-inch skillet over medium-high heat, stirring occasionally, 5-7 minutes or until cooked through and broken into crumbles. Transfer to bowl, using slotted spoon. Cover; keep warm. Wipe out skillet."
+            },
+            {
+                "steps": "Melt butter in same skillet until sizzling. Add garlic; sauté 1 minute. Add beaten eggs and pepper; cook over medium heat, lifting egg mixture slightly with spatula to allow uncooked portion to flow underneath, 3-4 minutes or until eggs are almost set."
+            },
+            {
+                "steps": "Spread half of chips in thin layer in bottom of prepared pan. Top chips with half of sausage and 1 cup cheese. Repeat with remaining chips, sausage, scrambled eggs, tomato and remaining cheese. Sprinkle with jalapeño slices"
+            },
+            {
+                "steps": " Bake 6-7 minutes or until cheese is melted. Serve immediately with sour cream and salsa, if desired."
+            }
+        ]
+    },
+    "blt":{
+        "title": "BLT",
+        "time": "10 minutes",
+        "image": "/images/blt.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "4 slices of bacon"
+            },
+            {
+                "bulletPoint": "2 leaves of lettuce"
+            },
+            {
+                "bulletPoint": "2 slices of tomato"
+            },
+            {
+                "bulletPoint": "2 slices of bread"
+            },
+            {
+                "bulletPoint": "1 tablespoon of mayonnaise"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "Cook bacon in a pan over medium-high heat until evenly browned and crispy."
+            },
+            {
+                "steps": "While the bacon is cooking, toast the bread."
+            },
+            {
+                "steps": "Spread mayonnaise on a slice of toasted bread."
+            },
+            {
+                "steps": "Assemble all the ingredients on the top of the slice of bread."
+            },
+            {
+                "steps": "Top it with the remaining slice of bread and enjoy!"
+            }
+        ]
+    },
+    "creamypestopasta":{
+        "title": "Creamy Pesto Pasta",
+        "time": "25 minutes",
+        "image": "/images/creamy-pesto-pasta.jpeg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "1 boneless, skinless chicken breast"
+            },
+            {
+                "bulletPoint": "1 tbsp butter"
+            },
+            {
+                "bulletPoint": "1 clove of garlic"
+            },
+            {
+                "bulletPoint": "0.25 lbs penne pasta"
+            },
+            {
+                "bulletPoint": "0.75 cups chicken broth"
+            },
+            {
+                "bulletPoint": "0.5 cup milk (can also use plant-based milk)"
+            },
+            {
+                "bulletPoint": "0.17 cup basil pesto"
+            },
+            {
+                "bulletPoint": "0.13 cup grated parmesan"
+            },
+            {
+                "bulletPoint": "freshly cracked pepper"
+            },
+            {
+                "bulletPoint": "1 pinch of crushed red pepper"
+            },
+            {
+                "bulletPoint": "1.5 cup spinach"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "Cut the chicken breast into 1-inch pieces. Add butter to a deep skillet and melt over medium heat."
+            },
+            {
+                "steps": " Add the chicken and cook over medium heat until chicken is slightly browned on the outside."
+            },
+            {
+                "steps": "While the chicken is cooking, mince the garlic. Add it to the skillet with the chicken and continue to cook it for one more minute."
+            },
+            {
+                "steps": "Add the uncooked pasta and chicken broth to the skillet that you're cooking the chicken in. Stir to dissolve any browned bits from the bottom of the skillet. Place a lid on the skillet, turn the heat up to medium high, and bring the broth up to a boil."
+            },
+            {
+                "steps": " Once the broth comes to a full boil, give the pasta a quick stir, replace the lid, and turn the heat down to medium low. Let it simmer until the pasta is al-dente. Stir briefly every two minutes and replace lid each time."
+            },
+            {
+                "steps": "Once the pasta is cooked and most of the broth is absorbed, add the milk and pesto. Stir and cook over medium heat."
+            },
+            {
+                "steps": "Add the grated parmesan and spinach and stir to combine. Once the spinach has wilted, remove the skillet from heat."
+            },
+            {
+                "steps": "Top with freshly cracked pepper and crushed red pepper and serve."
+            }
+        ]
+    },
+    "hessspecial":{
+        "title": "The Rob Hess Special",
+        "time": "Tuesday and Thursday 12-2 P.M.",
+        "image": "/images/chefhess.jpg",
+        "listOfStuff":[
+            {
+                "bulletPoint": "Soup"
+            },
+            {
+                "bulletPoint": "Something to go with that soup"
+            }
+        ],
+        "listOfSteps":[
+            {
+                "steps": "Ask through voice or chat what he's having for lunch today"
+            },
+            {
+                "steps": "Listen"
+            }
+        ]
+    }
+
+    }
+    
+    
+]

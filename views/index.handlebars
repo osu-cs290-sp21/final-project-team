@@ -1,0 +1,9 @@
+    {{#if print}}
+        <main class="recipe-container">
+            {{#each recipeData}}
+                {{> insertRecipe}}
+            {{/each}}
+        </main>
+        {{else}}
+            {{> error}}
+    {{/if}}
