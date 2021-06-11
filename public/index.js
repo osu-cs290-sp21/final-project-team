@@ -37,7 +37,7 @@ function search() {
 	}
 }
 
-function insertNewTwit (recipeImage, recipeTitle, recipeTime, recipeDescription, recipeIngredient, recipeDirection) {
+function insertNewRecipe (recipeImage, recipeTitle, recipeTime, recipeDescription, recipeIngredient, recipeDirection) {
     var template = {
         image: recipeImage,
         foodtitle: recipeTitle,
@@ -71,9 +71,10 @@ function addRecipeModalAccept() {
             directions: recipeDirection
         });
         hideModal();
+        insertNewRecipe(recipeImage, recipeTitle, recipeTime, recipeDescription,recipeIngredient, recipeDirection);
     }
     else {
-        alert('You must all of the required inputs of the twit!');
+        alert('You must all of the required inputs!');
     }
 }
 
@@ -90,7 +91,7 @@ function showModal() {
 
 function clearModal() {
     var recipeElements = document.getElementsByClassName("add-recipe-element");
-    for (var i = 0; i <= recipeElements.length; i++) {
+    for (var i = 0; i <= recipeElements.length+1; i++) {
         var userInput = recipeElements[i].querySelector('input, textarea');
         userInput.value = '';
     }
