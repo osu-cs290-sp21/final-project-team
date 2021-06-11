@@ -71,10 +71,10 @@ function addRecipeModalAccept() {
             directions: recipeDirection
         });
         hideModal();
-        insertNewRecipe(recipeImage, recipeTitle, recipeTime, recipeDescription,recipeIngredient, recipeDirection);
+        insertNewRecipe(recipeImage, recipeTitle, recipeTime, recipeDescription, recipeIngredient, recipeDirection);
     }
     else {
-        alert('You must all of the required inputs!');
+        alert('You must fill in all of the required inputs!');
     }
 }
 
@@ -91,10 +91,18 @@ function showModal() {
 
 function clearModal() {
     var recipeElements = document.getElementsByClassName("add-recipe-element");
-    for (var i = 0; i <= recipeElements.length+1; i++) {
+    for (var i = 0; i <= recipeElements.length; i++) {
         var userInput = recipeElements[i].querySelector('input, textarea');
-        userInput.value = '';
+        userInput.value = null;
     }
+
+    // $("#add-recipe-modal").find("recipe-direction-input").val(" ");
+    // $("#modal-form")[0].reset();
+
+    // var frm = document.getElementsByClassName("modal-form")[6];
+    // frm.reset();
+
+    // document.
 }
 
 /* function to hide modal */
