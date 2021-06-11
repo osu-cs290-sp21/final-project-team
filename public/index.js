@@ -11,7 +11,7 @@ search_bar_button.addEventListener('click', search)
 // for search box
 search_bar_input.addEventListener('keyup', search)
 
-var allTwits = [];
+var allRecipes = [];
 
 function search() {
     var twits = document.getElementsByClassName('recipe')
@@ -62,7 +62,7 @@ function addRecipeModalAccept() {
     var recipeDirection = document.getElementById('recipe-direction-input').value;
 
     if (recipeImage && recipeTitle && recipeTime && recipeDescription && recipeIngredient && recipeDirection) {
-        allTwits.push( {
+        allRecipes.push( {
             image: recipeImage,
             foodtitle: recipeTitle,
             time: recipeTime,
