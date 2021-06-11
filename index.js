@@ -20,10 +20,20 @@ function showCreateRecipe(){
     button.classList.remove('hidden')
 }
 
-var createRecipeButton = document.getElementById('add-recipe-button');
-if(createRecipeButton){
-    createRecipeButton.addEventListener('click', insertRecipe)
-}
+/* event listener */
+window.addEventListener('DOMContentLoaded', function () {
+    // var recipe = document.getElementsByClassName("recipe");
+    
+    
+    var beepboop = document.getElementById("add-recipe-button");
+    if (beepboop) {
+        beepboop.addEventListener("click", showButton)
+    }
+})
+// var createRecipeButton = document.getElementById('add-recipe-button');
+// if(createRecipeButton){
+//     createRecipeButton.addEventListener('click', insertRecipe)
+// }
 
 
 var openRecipeCreate = document.getElementById('add-recipe-button');

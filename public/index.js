@@ -81,7 +81,7 @@ function addRecipeModalAccept() {
         
     }
     else {
-        alert('You must all of the required inputs!');
+        alert('You must fill in all of the required inputs!');
     }
 }
 
@@ -98,9 +98,9 @@ function showModal() {
 
 function clearModal() {
     var recipeElements = document.getElementsByClassName("add-recipe-element");
-    for (var i = 0; i <= recipeElements.length+1; i++) {
+    for (var i = 0; i <= recipeElements.length; i++) {
         var userInput = recipeElements[i].querySelector('input, textarea');
-        userInput.value = '';
+        userInput.value = null;
     }
 }
 
