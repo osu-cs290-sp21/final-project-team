@@ -232,7 +232,7 @@ i.fas.fa-search {
   margin: 2px;
   padding: 20px;
   /* border: 2px solid #6EE198; */
-  border-radius: 2px;
+  /* border-radius: 5px; */
   background-color: #fff;
 }
   
@@ -240,6 +240,7 @@ i.fas.fa-search {
   /* flex: 1 1 80%; */
   margin-left: 10px;
   padding: 10px;
+  border-radius: 5px;
   /* border: 2px solid #6EE198; */
   /* border-style: double; */
 }
@@ -284,7 +285,7 @@ i.fas.fa-utensils.add-button {
  left: 0;
  right: 0;
  z-index: 1000;
- background-color: rgba(0, 0, 0, 0.85);
+ background-color: rgba(255, 255, 255, 0.90);
 }
 
 #add-recipe-modal{
@@ -300,3 +301,86 @@ i.fas.fa-utensils.add-button {
 .hidden{
   display: none;
 }
+
+.modal-box{
+  width: 500px;
+  height: 450px;
+
+  background-color: white;;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #6EE198;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.modal-header ul {
+  list-style-type: none;
+  padding-left: 0;
+  /* display: inline; */
+}
+
+.modal-header li {
+  display: inline;
+}
+
+h3.modal-title {
+  margin-top: 0;
+  color: #6EE198;
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+.quit-modal {
+  position: absolute;
+  border: none;
+  background: #6EE198;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+}
+
+button.quit-modal {
+  right: 5%;
+  top: 8%;
+}
+
+.add-recipe-element {
+  padding: 5px;
+}
+
+.modal-footer {
+  padding-top: 20px;
+}
+
+p.close-button {
+  color: white;
+  font-size: 23px;
+  margin-top: 2px;
+}
+
+.confirm-modal {
+  position: absolute;
+  border: none;
+  background: #6EE198;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+p.confirm-button {
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+}
+/* i.fas.fa-utensils.add-button {
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 12px;
+} */

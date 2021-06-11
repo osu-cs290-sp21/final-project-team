@@ -45,5 +45,4 @@ window.addEventListener('DOMContentLoaded', function () {
     if (boopboop) {
         boopboop.addEventListener("click", hideModal)
     }
-
 })
