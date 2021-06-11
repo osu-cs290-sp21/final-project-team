@@ -377,6 +377,24 @@ p.confirm-button {
   font-size: 14px;
   margin-top: 8px;
 }
+
+button#like-recipe-button {
+  border: none;
+  height: 32px;
+  width: 32px;
+  background-color: #6EE198;
+  border-radius: 5px;
+  color: white;
+}
+
+button#dislike-recipe-button {
+  border: none;
+  height: 32px;
+  width: 32px;
+  background-color: #6EE198;
+  border-radius: 5px;
+  color: white;
+
 /* i.fas.fa-utensils.add-button {
   font-size: 17px;
   color: white;

@@ -47,10 +47,16 @@ function insertNewRecipe (recipeImage, recipeTitle, recipeTime, recipeDescriptio
         directions: recipeDirection
     }
 
-    var newTwit = Handlebars.templates.insertRecipe(template);
+    var newRecipe = Handlebars.templates.insertRecipe(template);
 
     var recipeContainer = document.querySelector('index.recipe-container');
-    recipeContainer.insertAdjacentHTML('beforeend', newTwit)
+    recipeContainer.insertAdjacentHTML('beforeend', newRecipe)
+    
+    const fs = require('fs')
+    var data = JSON.stringify(template)
+    fs.writeFileSync('recipess.json', data)
+    fs.writeFileSync('recipeData.json', data)
+
 };
 
 function addRecipeModalAccept() {
@@ -72,6 +78,7 @@ function addRecipeModalAccept() {
         });
         hideModal();
         insertNewRecipe(recipeImage, recipeTitle, recipeTime, recipeDescription,recipeIngredient, recipeDirection);
+        
     }
     else {
         alert('You must all of the required inputs!');
