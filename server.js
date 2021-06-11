@@ -7,17 +7,28 @@ var expresshandlebars = require('express-handlebars');
 app.set('view engine', 'handlebars')
 app.use(express.static('views/images'));
 
-var recipeData = require('./recipedata.json')
+var recipeData = require('./recipedata.json');
+const { nextTick } = require('process');
 
 app.engine('handlebars', expresshandlebars({
-    defaultLayout: "index",
-    layoutsDir: path.join(__dirname, "views"),
-    partialsDir: path.join(__dirname, "views")
+    defaultLayout: 'main',
+    layoutsDir: path.join(__dirname, 'views/layouts'),
+    partialDir: [
+        path.join(__dirname, 'views/partials')
+    ]
 }))
 
 var port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
+
+app.get("/webpage/:recipe", function(req, res){
+    var idrecipe = req.params.recipe
+    if(idrecipe){
+        res.status(200).render(idrecipe)
+    }
+})
+
 
 app.get("/", (req, res) => {
     res.status(200).render("index",{
