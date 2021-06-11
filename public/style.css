@@ -1,0 +1,46 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-title {
+    margin: 0;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: 100;
+    background-color: green;
+    color: lightgray;
+    text-decoration: none;
+    text-align: center;
+}
+
+#search-bar-input{
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.error {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .error h2 {
+    margin: 10px 0;
+    font-size: 96px;
+    font-weight: 100;
+  }
+  
+  .error h3 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;
+  }

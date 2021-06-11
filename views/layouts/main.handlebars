@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>GROUP 26 RECIPE APP</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main-style.css" media="screen">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Website Title -->
+      <a href = "#"><h1 class ="site-title"><i class="fas fa-utensils"></i>GROUP 26 RECIPE APP</h1></a>
+    {{#if printButton}}
+      <!-- Search bar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <input type="text" id="search-bar-input" placeholder="Search for recipes...">
+            <button type="button" id ="search-bar-button"><i class="fas fa-search"></i></button>
+          </li>
+        </ul>
+        
+      </nav>
+
+    </header>
+    {{/if}}
+
+    {{{body}}}
+
+     </main> 
+
+      <!-- New recipe button -->
+      {{#if printButton}}
+      <button type="button" id="add-recipe-button"><i class="fas fa-utensils add-button"></i></button>
+      
+      <div id="modal-background" class="hidden"></div>
+      <div id="add-recipe-modal" class="hidden">
+        <div class="modal-box">
+
+          <div class="modal-header">
+            <!-- Input recipe image -->
+            <div class="add-recipe-element">
+              <label for="recipe-image-input">Photo</label>
+              <input type="file" id="recipe-image-input" accept="image/*">
+            </div>
+            <!-- Input recipe title-->
+            <div class="add-recipe-element">
+              <label for="recipe-title-input">Title</label>
+              <textarea id="recipe-title-input"></textarea>
+            </div>
+            <!-- Input recipe time-->
+            <div class="add-recipe-element">
+              <label for="recipe-time-input">Cooking Time</label>
+              <textarea id="recipe-title-input"></textarea>
+            </div>
+            <!-- Input recipe description -->
+            <div class="add-recipe-element">
+              <label for="recipe-description-input">Short Description</label>
+              <textarea id="recipe-description-input"></textarea>
+            </div>
+            <!-- Input recipe ingredients & measurements -->
+            <div class="add-recipe-element">
+              <label for="recipe-ingredient-input">Ingredients & Measurements</label>
+              <textarea id="recipe-ingredient-input"></textarea>
+            </div>
+            <!-- Input recipe directions -->
+            <div class="add-recipe element">
+              <label for="recipe-direction-input">Cooking Directions</label>
+              <textarea id="recipe-direction-input"></textarea>
+            </div>
+         
+          </div>
+
+        </div>
+      </div>
+    {{/if}}
+
+</html>

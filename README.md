@@ -11,15 +11,15 @@ clone repository:
 -------------------------------------------------------------------------------
 
 create your own branch:
-  ```$ git checkout -b [name your branch here] main```
+  `$ git checkout -b [name your branch here] main`
   
 for example:
-  ```$ git checkout -b final-project-myname main```
+  `$ git checkout -b final-project-myname main`
 
 -------------------------------------------------------------------------------
 
 commit changes:
-  ```$ git commit -a -m [commit message here]```
+  `$ git commit -a -m [commit message here]`
   
 for example:
  `$ git commit -a -m "i changed the color to green!"`
@@ -31,3 +31,13 @@ push to github
   
 for example:
   `$ git push --set-upstream origin final-project-myname`
+  
+  
+-------------------------------------------------------------------------------
+other useful git stuff
+
+check what changes you've made or which branch you're on:
+  `$ git status`
+  
+initialize your repository:
+  `$ git init`
