@@ -24,10 +24,24 @@ var port = process.env.PORT || 3000;
 app.use(express.static('public'));
 
 
+// app.get("/webpage/:recipe", function(req, res){
+//     var idrecipe = req.params.recipe.toLowerCase();
+//     res.status(200).render("recipemain", recipess[0][idrecipe])
+
+// })
+
 app.get("/webpage/:recipe", function(req, res){
     var idrecipe = req.params.recipe.toLowerCase();
-    res.status(200).render("recipemain", recipess[0][idrecipe])
-
+    if (i < recipess.length && i >= 0) {
+        var template = {
+            twit: [recipeData[i-1]]
+        }
+        res.status(200).render("recipemain", template)
+    }
+    else {
+        res.status(404);
+        res.render('error');
+    }
 })
 
 

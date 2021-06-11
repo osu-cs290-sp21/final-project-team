@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', function () {
 // }
 
 
-// var openRecipeCreate = document.getElementById('add-recipe-button');
-// if(openRecipeCreate){
-//     openRecipeCreate.addEventListener('click', showCreateRecipe)
-// }
+var openRecipeCreate = document.getElementById('add-recipe-button');
+if(openRecipeCreate){
+    openRecipeCreate.addEventListener('click', showCreateRecipe)
+}
